@@ -1,0 +1,80 @@
+.cont {
+    border: 3px solid black;
+    display: grid;
+    grid-template-areas:
+        "H H H"
+        "S C1 C2"
+        "F F F"
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 8.5cm 100px;
+  
+
+    height: 540px;
+margin: 0px;
+
+
+}
+
+.i {
+
+    background-color: #fbf6f6;
+   
+
+}
+
+.i1 {
+    grid-area: H;
+    text-align: center;
+}
+
+.i2 {
+    text-decoration: none;
+    grid-area: S;
+    font-size: 20px;
+    color: green;
+   
+    
+}
+
+.i3 {
+
+    grid-area: C1;
+    font-weight: bold;
+    font-size: 20px;
+   
+   
+
+}
+
+.i4 {
+    grid-area: C2;
+    text-align: center;
+}
+
+.i5 {
+    grid-area: F;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+
+}
+#img{
+padding-top: 50px;
+}
+.a{
+    text-decoration: none;
+    color: green;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.t1{
+border-color: blue;
+margin-right: 100px;
+
+
+}
+.l1{
+    margin-top: 140px;
+}
